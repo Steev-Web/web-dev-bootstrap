@@ -1,0 +1,39 @@
+body::before{
+    display: block;
+    content: '';
+    height: 72px;
+
+}
+
+#boxes .card{
+    min-height: 260px;
+}
+
+#learn img{
+    height: 100%;
+}
+
+#instructors img{
+    width: 130px;
+    background-color: rgb(190, 190, 190);
+}   
+
+#instructors .card{
+    height: 410px;
+}   
+
+/* breakpoint for medium devices */ 
+@media (min-width: 768px) {
+  .news-input {
+    max-width: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
